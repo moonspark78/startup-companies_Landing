@@ -23,7 +23,7 @@ const Navbar = () => {
             <div>
               {
                 navLinks.map((link, index) =>(
-                  <a href={link.href} key={index}></a>
+                  <a href={link.href} key={index}>{link.label}</a>
                 ))
               }
             </div>
