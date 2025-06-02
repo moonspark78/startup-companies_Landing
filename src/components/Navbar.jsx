@@ -20,6 +20,13 @@ const Navbar = () => {
               <div className='w-4 h-4 bg-red-500 -ml-2 rounded-full opacity-100 hover:opacity-75 transition-opacity'></div>
             </div>
             {/* desktop navitems */}
+            <div>
+              {
+                navLinks.map((link, index) =>(
+                  <a href='' key={index}></a>
+                ))
+              }
+            </div>
             {/* get in touch btn */}
             {/* mobile menu */}
       </div>
