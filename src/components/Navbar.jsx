@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  
+  const [activeLink, setActiveLink] = useState('#home')
+
 
   const navLinks = [
     {href: '#home', label: 'Home'},
