@@ -25,6 +25,8 @@ const Navbar = () => {
                 navLinks.map((link, index) =>(
                   <a href={link.href} key={index}
                     onClick={() => setActiveLink(link.href)}
+                    className={`text-sm font-medium relative after:absolute after:bottom-0 after:left-0 after:h-0.5
+                     after:w-0 hover:after:w-full`}
                   >
                     {link.label}
                   </a>
