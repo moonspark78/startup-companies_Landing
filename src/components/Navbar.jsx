@@ -35,6 +35,9 @@ const Navbar = () => {
               }
             </div>
             {/* get in touch btn */}
+            <button>
+              
+            </button>
             {/* mobile menu */}
       </div>
     </nav>
