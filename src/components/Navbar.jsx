@@ -35,8 +35,8 @@ const Navbar = () => {
               }
             </div>
             {/* get in touch btn */}
-            <button>
-              
+            <button className='hidden md:block bg-blue-600 text-white px-6 py-2.5 rounded-lg'>
+
             </button>
             {/* mobile menu */}
       </div>
