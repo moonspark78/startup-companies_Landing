@@ -37,7 +37,7 @@ const Navbar = () => {
             {/* get in touch btn */}
             <button className='hidden md:block bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 text-sm
             font-medium transition-all hover:shadow-lg hover:shadow-blue-100'>
-
+              <a href='#newsletter'>Get in Touch</a>
             </button>
             {/* mobile menu */}
       </div>
