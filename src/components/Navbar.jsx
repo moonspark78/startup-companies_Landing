@@ -26,7 +26,8 @@ const Navbar = () => {
                   <a href={link.href} key={index}
                     onClick={() => setActiveLink(link.href)}
                     className={`text-sm font-medium relative after:absolute after:bottom-0 after:left-0 after:h-0.5
-                     after:w-0 hover:after:w-full`}
+                     after:w-0 hover:after:w-full after:bg-blue-600 after:transition-all ${activeLink === 
+                     link.href ? 'text-blue-600' : 'text-gray-600 hover:text-gray-900'}`}
                   >
                     {link.label}
                   </a>
