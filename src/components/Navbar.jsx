@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { HiMenu, HiX } from 'react-icons/hi';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -19,6 +20,14 @@ const Navbar = () => {
               <div className='w-4 h-4 bg-blue-600 rounded-full opacity-75 hover:opacity-100 transition-opacity'></div>
               <div className='w-4 h-4 bg-red-500 -ml-2 rounded-full opacity-100 hover:opacity-75 transition-opacity'></div>
             </div>
+
+            {/* mobile menu */}
+              <button>
+                {
+                  isMenuOpen ? <HiX className='size-6'/> : <HiMenu className='size-6'/>
+                }
+              </button>
+
             {/* desktop navitems */}
             <div className='hidden md:flex items-center gap-10'>
               {
@@ -39,7 +48,7 @@ const Navbar = () => {
             font-medium transition-all hover:shadow-lg hover:shadow-blue-100'>
               <a href='#newsletter'>Get in Touch</a>
             </button>
-            {/* mobile menu */}
+            
       </div>
     </nav>
   )
