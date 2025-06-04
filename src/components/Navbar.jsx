@@ -22,7 +22,7 @@ const Navbar = () => {
             </div>
 
             {/* mobile menu */}
-              <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
+              <button onClick={() => setIsMenuOpen(!isMenuOpen)} className='md:hidden p-2'>
                 {
                   isMenuOpen ? <HiX className='size-6'/> : <HiMenu className='size-6'/>
                 }
