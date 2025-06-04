@@ -50,6 +50,15 @@ const Navbar = () => {
             </button>
             
       </div>
+
+      {/* mobile menu items */}
+      {
+        isMenuOpen && (
+          <div>
+
+          </div>
+        )
+      }
     </nav>
   )
 }
