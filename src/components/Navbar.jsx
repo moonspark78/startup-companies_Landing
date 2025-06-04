@@ -55,7 +55,13 @@ const Navbar = () => {
       {
         isMenuOpen && (
           <div>
+            <div>
+              {
+                navLinks.map((link, index) => (
 
+                ))
+              }
+            </div>
           </div>
         )
       }
