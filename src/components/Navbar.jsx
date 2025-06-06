@@ -59,6 +59,10 @@ const Navbar = () => {
               {
                 navLinks.map((link, index) => (
                   <a 
+                    onClick={() => {
+                      setActiveLink(link.href)
+                      setIsMenuOpen(false)  // Close the menu on link click
+                    }}
                     className={`block text-sm font-medium py-2 ${activeLink === link.href ? 'text-blue-600' :
                      'text-gray-600 hover:text-gray-900'}`}
                     href={link.href}
