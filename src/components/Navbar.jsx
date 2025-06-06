@@ -55,7 +55,7 @@ const Navbar = () => {
       {
         isMenuOpen && (
           <div className='md:hidden bg-white border-t border-gray-100 p-4'>
-            <div>
+            <div className='container mx-auto px-4 space-y-3'>
               {
                 navLinks.map((link, index) => (
                   <a 
