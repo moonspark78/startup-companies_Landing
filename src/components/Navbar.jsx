@@ -24,7 +24,7 @@ const Navbar = () => {
             {/* mobile menu */}
               <button onClick={() => setIsMenuOpen(!isMenuOpen)} className='md:hidden p-2'>
                 {
-                  isMenuOpen ? <HiX className='size-6'/> : <HiMenu className='size-6'/>
+                  isMenuOpen ? <HiX className='size-6 text-gray-800'/> : <HiMenu className='size-6 text-gray-800'/>
                 }
               </button>
 
