@@ -59,7 +59,8 @@ const Navbar = () => {
               {
                 navLinks.map((link, index) => (
                   <a 
-                    className=''
+                    className={`block text-sm font-medium py-2 ${activeLink === link.href ? 'text-blue-600' :
+                     'text-gray-600 hover:text-gray-900'}`}
                     href={link.href}
                   >
                     {link.label}
