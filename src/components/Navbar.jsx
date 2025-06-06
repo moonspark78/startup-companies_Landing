@@ -54,11 +54,16 @@ const Navbar = () => {
       {/* mobile menu items */}
       {
         isMenuOpen && (
-          <div>
+          <div className='md:hidden bg-white border-t border-gray-100 p-4'>
             <div>
               {
                 navLinks.map((link, index) => (
-                  <a href={link.href}>{link.label}</a>
+                  <a 
+                    className=''
+                    href={link.href}
+                  >
+                    {link.label}
+                  </a>
                 ))
               }
             </div>
