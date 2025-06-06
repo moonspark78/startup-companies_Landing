@@ -59,6 +59,7 @@ const Navbar = () => {
               {
                 navLinks.map((link, index) => (
                   <a 
+                    key={index}
                     onClick={() => {
                       setActiveLink(link.href)
                       setIsMenuOpen(false)  // Close the menu on link click
