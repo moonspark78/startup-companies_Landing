@@ -8,11 +8,14 @@ const Hero = () => {
 
         {/* left col */}
         <div className='w-full md:w-1/2 space-y-8'>
-
+            {/* star badge */}
+            <div>
+                <span className='text-blue-600 group-hover:scale-110 transition-transform'><FaStar /></span>
+                <span className='text-sm font-medium'></span>
+            </div>
         </div>
 
 
-        {/* star badge */}
 
 
 
