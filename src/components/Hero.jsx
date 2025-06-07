@@ -9,7 +9,7 @@ const Hero = () => {
         {/* left col */}
         <div className='w-full md:w-1/2 space-y-8'>
             {/* star badge */}
-            <div>
+            <div className='flex items-center gap-2 bg-gray-50 w-fit px-4'>
                 <span className='text-blue-600 group-hover:scale-110 transition-transform'><FaStar /></span>
                 <span className='text-sm font-medium'>Jump start your growth</span>
             </div>
@@ -21,7 +21,7 @@ const Hero = () => {
 
         {/* right co */}
         <div className="w-full md:w-1/2">
-
+            right col
         </div>
     </section>
   )
