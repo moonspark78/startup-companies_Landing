@@ -15,7 +15,14 @@ const Hero = () => {
                 <span className='text-sm font-medium'>Jump start your growth</span>
             </div>
 
-            <h1>We boost the growth for Startup to Fortune 500 Companies⏰</h1>
+            <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold leading-tight'>
+                We boost the growth for 
+                  <span>
+                    Startup to Fortune 500
+                    <span></span>
+                  </span> Companies
+                  <span>⏰</span>
+            </h1>
         </div>
 
 
