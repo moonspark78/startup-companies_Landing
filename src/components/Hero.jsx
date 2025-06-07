@@ -19,7 +19,7 @@ const Hero = () => {
                 We boost the growth for 
                   <span className='text-blue-600 relative inline-block'>
                     Startup to Fortune 500
-                    <span></span>
+                    <span className='absolute bottom-0 left-0 w-full h-0.5 bg-blue-200/60'></span>
                   </span> Companies
                   <span>⏰</span>
             </h1>
