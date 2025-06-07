@@ -17,7 +17,7 @@ const Hero = () => {
 
             <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold leading-tight'>
                 We boost the growth for 
-                  <span>
+                  <span className='text-blue-600 relative inline-block'>
                     Startup to Fortune 500
                     <span></span>
                   </span> Companies
