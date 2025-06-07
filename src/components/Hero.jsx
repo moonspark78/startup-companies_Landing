@@ -11,7 +11,7 @@ const Hero = () => {
             {/* star badge */}
             <div>
                 <span className='text-blue-600 group-hover:scale-110 transition-transform'><FaStar /></span>
-                <span className='text-sm font-medium'></span>
+                <span className='text-sm font-medium'>Jump start your growth</span>
             </div>
         </div>
 
