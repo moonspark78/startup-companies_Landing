@@ -14,6 +14,8 @@ const Hero = () => {
                 <span className='text-blue-600 group-hover:text-amber-300 group-hover:scale-110 transition-transform'><FaStar /></span>
                 <span className='text-sm font-medium'>Jump start your growth</span>
             </div>
+
+            <h1>We boost the growth for Startup to Fortune 500 Companies⏰</h1>
         </div>
 
 
