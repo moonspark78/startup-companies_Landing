@@ -9,7 +9,8 @@ const Hero = () => {
         {/* left col */}
         <div className='w-full md:w-1/2 space-y-8'>
             {/* star badge */}
-            <div className='flex items-center gap-2 bg-gray-50 w-fit px-4'>
+            <div className='flex items-center gap-2 bg-gray-50 w-fit px-4 py-2 rounded-full hover:bg-gray-100 transition-colors
+            cursor-pointer group'>
                 <span className='text-blue-600 group-hover:scale-110 transition-transform'><FaStar /></span>
                 <span className='text-sm font-medium'>Jump start your growth</span>
             </div>
