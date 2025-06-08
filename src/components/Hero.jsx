@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaStar } from "react-icons/fa";
+import { FaStar, FaArrowRight } from "react-icons/fa";
+
 
 
 const Hero = () => {
@@ -24,7 +25,16 @@ const Hero = () => {
                   <span className='inline-block ml-2 animate-pulse'>⏰</span>
             </h1>
 
-            <p className='text-gray-600 text-lg md:text-xl max-w-xl'>Get the accurate leads, sales people training and conversions, tools and more -all within the same one billing.</p>
+            <p className='text-gray-600 text-lg md:text-xl max-w-xl'>
+              Get the accurate leads, sales people training and conversions, tools and more -all within the same one billing.
+            </p>
+
+            <div>
+              <input 
+                type="email" 
+                pkalaceholder='Enter your email'
+              />
+            </div>
         </div>
 
 
