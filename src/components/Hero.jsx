@@ -51,7 +51,12 @@ const Hero = () => {
 
         {/* right co */}
         <div className="w-full md:w-1/2">
-            right col
+            <div>
+              <img
+                src=''
+                alt=''
+              />
+            </div>
         </div>
     </section>
   )
