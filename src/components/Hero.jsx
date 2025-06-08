@@ -15,7 +15,7 @@ const Hero = () => {
                 <span className='text-sm font-medium'>Jump start your growth</span>
             </div>
 
-            <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold leading-tight'>
+            <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold leading-tight'>
                 We boost the growth for 
                   <span className='text-blue-600 relative inline-block'>
                     Startup to Fortune 500
@@ -24,7 +24,7 @@ const Hero = () => {
                   <span className='inline-block ml-2 animate-pulse'>⏰</span>
             </h1>
 
-            <p>Get the accurate leads, sales people training and conversions, tools and more -all within the same one billing.</p>
+            <p className='text-gray-600 text-lg md:text-xl max-w-xl'>Get the accurate leads, sales people training and conversions, tools and more -all within the same one billing.</p>
         </div>
 
 
