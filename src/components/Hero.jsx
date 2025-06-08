@@ -29,13 +29,18 @@ const Hero = () => {
               Get the accurate leads, sales people training and conversions, tools and more -all within the same one billing.
             </p>
 
-            <div>
+            <div className='flex gap-3 max-w-md'>
               <input 
                 type="email" 
                 pkalaceholder='Enter your email'
                 className='flex-1 px-6 py-4 border border-gray-200 rounded-xl focus:outline-none focus:border-blue-600 focus:ring-2
                 focus:ring-blue-200 transition-all'
               />
+              <button
+                className='bg-blue-600 text-white'
+              >
+                <FaArrowRight/>
+              </button>
             </div>
         </div>
 
