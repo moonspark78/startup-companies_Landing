@@ -37,7 +37,8 @@ const Hero = () => {
                 focus:ring-blue-200 transition-all'
               />
               <button
-                className='bg-blue-600 text-white'
+                className='bg-blue-600 text-white px-8 py-4 rounded-xl hover:bg-blue-700 cursor-pointer transition-all
+                hover:shadow-lg hover:shadow-blue-300'
               >
                 <FaArrowRight/>
               </button>
