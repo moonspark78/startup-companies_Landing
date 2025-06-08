@@ -33,6 +33,7 @@ const Hero = () => {
               <input 
                 type="email" 
                 pkalaceholder='Enter your email'
+                className='flex-1 px-6 py-4 border border-gray-200 rounded-xl focus:outline-none'
               />
             </div>
         </div>
