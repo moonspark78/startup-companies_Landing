@@ -23,6 +23,8 @@ const Hero = () => {
                   </span> Companies
                   <span className='inline-block ml-2 animate-pulse'>⏰</span>
             </h1>
+
+            <p>Get the accurate leads, sales people training and conversions, tools and more -all within the same one billing.</p>
         </div>
 
 
