@@ -6,7 +6,7 @@ function App() {
   
 
   return (
-    <main>
+    <main className='relative min-h-screen. overflow-x-hidden'>
       <div>
         <Navbar/>
         <Hero/>
