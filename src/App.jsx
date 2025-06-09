@@ -7,7 +7,7 @@ function App() {
 
   return (
     <main className='relative min-h-screen. overflow-x-hidden'>
-      <div>
+      <div className='absolute -top-28 -left-28'>
         <Navbar/>
         <Hero/>
       </div>
