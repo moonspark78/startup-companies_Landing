@@ -6,10 +6,12 @@ function App() {
   
 
   return (
-    <>
-      <Navbar/>
-      <Hero/>
-    </>
+    <main>
+      <div>
+        <Navbar/>
+        <Hero/>
+      </div>
+    </main>
   )
 }
 
