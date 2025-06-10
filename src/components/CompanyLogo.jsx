@@ -9,6 +9,12 @@ const CompanyLogo = () => {
         z-10 sm:text-base text-xl font-semibold text-left'>
             Proud partern at <br/> HubSpot & Segment
         </div>
+
+        <div>
+            {logos.map((logo,index) => (
+                <img src={logo} alt='company logo'/>
+            ))}
+        </div>
     </div>
   )
 }
