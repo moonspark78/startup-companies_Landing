@@ -15,7 +15,7 @@ const CompanyLogo = () => {
             Proud partern at <br/> HubSpot & Segment
         </div>
 
-        <div className='flex  animate-marquee'>
+        <div className='flex  animate-marquee whitespace-nowrap'>
             {logos.map((logo,index) => (
                 <img src={logo} alt='company logo'/>
             ))}
