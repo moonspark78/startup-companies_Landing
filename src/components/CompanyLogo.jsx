@@ -17,7 +17,7 @@ const CompanyLogo = () => {
 
         <div className='flex  animate-marquee whitespace-nowrap'>
             {logos.map((logo,index) => (
-                <img src={logo} alt='company logo'/>
+                <img src={logo} alt='company logo' className='mx-12 h-8 w-36 object-contain'/>
             ))}
         </div>
     </div>
