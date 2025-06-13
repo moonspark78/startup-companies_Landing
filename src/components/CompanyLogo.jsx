@@ -23,7 +23,7 @@ const CompanyLogo = () => {
 
             {/* duplicate logo */}
             {logos.map((logo,index) => (
-                <img key={index} src={logo} alt='company logo' className='mx-12 h-8 w-36 object-contain grayscale opacity-70
+                <img key={`duplicate-${index}`} src={logo} alt='company logo' className='mx-12 h-8 w-36 object-contain grayscale opacity-70
                  hover:grayscale-0 hover:opacity-100 transition-all'/>
             ))}
         </div>
