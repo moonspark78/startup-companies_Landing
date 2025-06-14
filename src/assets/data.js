@@ -16,7 +16,7 @@ export const features = [
 
 //   features section
 
-  const features = [
+  const feature = [
     {
       icon: "🔍", 
       title: "Find out what you need",
