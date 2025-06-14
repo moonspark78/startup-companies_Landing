@@ -34,7 +34,7 @@ const PurposeSection = () => {
               {
                 features.map((feature, index) => (
                   <div key={index} className="flex space-x-4">
-                    <div>{feature.icon}</div>
+                    <div className="w-12 h-12 flex items-center justify-start rounded-lg">{feature.icon}</div>
                     <div>
                       <h3 className="">{feature.title}</h3>
                       <p className="">{feature.description}</p>
