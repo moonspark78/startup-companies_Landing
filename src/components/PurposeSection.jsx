@@ -1,8 +1,10 @@
-import React from 'react'
+
 
 const PurposeSection = () => {
   return (
-    <div>PurposeSection</div>
+    <section className='w-full bg-gray-50 py-16 px-4 sm:px-6 md:px-8'>
+
+    </section>
   )
 }
 
