@@ -7,12 +7,15 @@ const PurposeSection = () => {
         <div className="grid md:grid-cols-3 grid-cols-1 gap-8">
 
             {/* Heading text */}
-            <div>
+            <div className="">
                 <p className="text-sm text-purple-600 font-medium mb-2">ACHIEVE MORE</p>
                 <h2 className="text-3xl md:w-4/5 w-full md:text-4xl font-bold text-gray-900">
                 Purpose of a convoy is to keep your team
                 </h2>
             </div>
+
+            {/* bullet points */}
+            <div></div>
 
 
         </div>
