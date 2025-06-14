@@ -36,8 +36,8 @@ const PurposeSection = () => {
                   <div key={index} className="flex space-x-4">
                     <div className="w-12 h-12 flex items-center justify-start rounded-lg">{feature.icon}</div>
                     <div>
-                      <h3 className="">{feature.title}</h3>
-                      <p className="">{feature.description}</p>
+                      <h3 className="text-xl font-semibold text-gray-900 mb-2">{feature.title}</h3>
+                      <p className="text-gray-600">{feature.description}</p>
                     </div>
                   </div>
                 ))
