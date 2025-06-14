@@ -6,7 +6,7 @@ const PurposeSection = () => {
     <div className="max-w-6xl mx-auto ">
         <div>
             <p className="text-sm text-purple-600 font-medium mb-2">ACHIEVE MORE</p>
-            <h2>
+            <h2 className="text-3xl md:w-4/5">
                 Purpose of a convoy is to keep your team
             </h2>
         </div>
