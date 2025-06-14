@@ -1,3 +1,4 @@
+import { describe } from "node:test";
 
 
 const PurposeSection = () => {
@@ -14,7 +15,7 @@ const PurposeSection = () => {
     }
   ];
 
-  
+
   return (
     <section className='w-full bg-gray-50 py-16 px-4 sm:px-6 md:px-8'>
     <div className="max-w-6xl mx-auto ">
@@ -29,7 +30,19 @@ const PurposeSection = () => {
             </div>
 
             {/* bullet points */}
-            <div></div>
+            <div>
+              {
+                features.map((feature, index) => (
+                  <div key={index} className="flex space-x-4">
+                    <div>{feature.icon}</div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-gray-800">{feature.title}</h3>
+                      <p className="text-gray-600">{feature.description}</p>
+                    </div>
+                  </div>
+                ))
+              }
+            </div>
 
 
         </div>
