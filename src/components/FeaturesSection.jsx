@@ -21,9 +21,9 @@ import React from 'react'
 
 const FeaturesSection = () => {
   return (
-    <section>
+    <section className='max-w-7xl mx-auto px-4 py-16'>
         {/* heading text */}
-        <div>
+        <div className='text-center mb-12'>
             <h2 className='text-3xl font-bold mb-4'>How can we help your business ?</h2>
             <p className='text-gray-600'>When you resell benik, you build trust and incresse</p>
         </div>
