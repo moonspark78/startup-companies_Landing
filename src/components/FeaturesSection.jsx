@@ -32,7 +32,9 @@ const FeaturesSection = () => {
         <div>
             {feature.map((feature, index) => (
                 <div>
-                    
+                    <div>
+                        <div className='text-3xl'>{feature.icon}</div>
+                    </div>
                 </div>
             ))}
         </div>
