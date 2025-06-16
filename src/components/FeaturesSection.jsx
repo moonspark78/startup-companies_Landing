@@ -27,6 +27,15 @@ const FeaturesSection = () => {
             <h2 className='text-3xl font-bold mb-4'>How can we help your business ?</h2>
             <p className='text-gray-600'>When you resell benik, you build trust and incresse</p>
         </div>
+
+        {/* features boxs */}
+        <div>
+            {feature.map((feature, index) => (
+                <div>
+                    
+                </div>
+            ))}
+        </div>
     </section>
   )
 }
