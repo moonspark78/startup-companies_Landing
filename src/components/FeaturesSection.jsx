@@ -38,6 +38,7 @@ const FeaturesSection = () => {
                     </div>
 
                     <h3 className='text-2xl font-medium mb-3'>{feature.title}</h3>
+                    <p className='text-gray-500 text-center'>{feature.description}</p>
                 </div>
             ))}
         </div>
