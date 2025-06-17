@@ -32,7 +32,8 @@ const FeaturesSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {feature.map((feature, index) => (
                 <div key={index} className='flex flex-col text-center items-center p-6'>
-                    <div className='w-24 h-24 rounded-full mb-6 flex items-center justify-center'>
+                    <div className='w-24 h-24 rounded-full mb-6 flex items-center justify-center' 
+                    style={{backgroundColor: index === 0 ? "#F1EFFD" : index ===1 ? ""}}>
                         <div className='text-3xl'>{feature.icon}</div>
                     </div>
                 </div>
