@@ -33,7 +33,7 @@ const FeaturesSection = () => {
             {feature.map((feature, index) => (
                 <div key={index} className='flex flex-col text-center items-center p-6'>
                     <div className='w-24 h-24 rounded-full mb-6 flex items-center justify-center' 
-                    style={{backgroundColor: index === 0 ? "#F1EFFD" : index ===1 ? ""}}>
+                    style={{backgroundColor: index === 0 ? "#F1EFFD" : index ===1 ? "FEE7E7" : "FFF3E4"}}>
                         <div className='text-3xl'>{feature.icon}</div>
                     </div>
                 </div>
