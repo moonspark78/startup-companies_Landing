@@ -29,7 +29,7 @@ const FeaturesSection = () => {
         </div>
 
         {/* features boxs */}
-        <div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {feature.map((feature, index) => (
                 <div>
                     <div>
