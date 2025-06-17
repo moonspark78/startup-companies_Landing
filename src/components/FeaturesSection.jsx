@@ -36,6 +36,8 @@ const FeaturesSection = () => {
                     style={{backgroundColor: index === 0 ? "#F1EFFD" : index ===1 ? "FEE7E7" : "FFF3E4"}}>
                         <div className='text-3xl'>{feature.icon}</div>
                     </div>
+
+                    <h3 className='text-2xl font-medium mb-3'>{feature.title}</h3>
                 </div>
             ))}
         </div>
