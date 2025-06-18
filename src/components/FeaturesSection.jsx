@@ -48,6 +48,7 @@ const FeaturesSection = () => {
           <button className='bg-blue-600 text-white cursor-pointer px-8 py-3 rounded-full font-medium
           hover:bg-blue-700 transition-colors relative'>
             Become a Partner
+            <div></div>
           </button>
 
         </div>
