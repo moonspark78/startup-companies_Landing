@@ -42,6 +42,9 @@ const FeaturesSection = () => {
                 </div>
             ))}
         </div>
+
+        {/* button */}
+        <div></div>
     </section>
   )
 }
