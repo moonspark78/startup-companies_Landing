@@ -45,6 +45,9 @@ const FeaturesSection = () => {
 
         {/* button */}
         <div className='text-center mt-12'>
+          <button className='bg-blue-600'>
+
+          </button>
 
         </div>
     </section>
