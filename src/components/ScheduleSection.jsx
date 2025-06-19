@@ -1,4 +1,5 @@
 import React from 'react'
+import scheduleImage from "../assets/stats.webp"
 
 const ScheduleSection = () => {
   return (
@@ -7,8 +8,11 @@ const ScheduleSection = () => {
 
             {/* Left side content */}
             <div className='md:w-1/2 w-full'>
-                <img/>
+                <img src={scheduleImage} alt='schedule image' className='w-full h-auto'/>
             </div>
+
+            {/* right */}
+            <div></div>
 
         </div>
     </section>
