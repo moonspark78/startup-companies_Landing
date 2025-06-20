@@ -12,7 +12,9 @@ const ScheduleSection = () => {
             </div>
 
             {/* right */}
-            <div></div>
+            <div>
+              <p className='text-orange-500 font-semibold'>SCHEDULE</p>
+            </div>
 
         </div>
     </section>
