@@ -19,7 +19,9 @@ const ScheduleSection = () => {
                 With Smart Scheduling Solutions
               </h2>
               <p className='text-gray-600 mb-8'>
-
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum ullamcorper magna tincidunt posuere.
+                  Donec maximus arcu vel suscipit hendrerit. Ut viverra sapien at nunc eleifend lobortis.
+                  Mauris condimentum massa.
               </p>
             </div>
 
