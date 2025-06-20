@@ -18,6 +18,9 @@ const ScheduleSection = () => {
                 <br/>
                 With Smart Scheduling Solutions
               </h2>
+              <p className='text-gray-600 mb-8'>
+
+              </p>
             </div>
 
         </div>
