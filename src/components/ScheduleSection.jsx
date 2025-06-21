@@ -24,7 +24,7 @@ const ScheduleSection = () => {
                   Mauris condimentum massa.
               </p>
 
-              <a href='#' className='text-blue-500 font-semibold'>
+              <a href='#' className='text-blue-500 font-semibold flex items-center'>
 
               </a>
             </div>
