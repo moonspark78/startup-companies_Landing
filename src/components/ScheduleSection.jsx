@@ -1,5 +1,6 @@
-import React from 'react'
+
 import scheduleImage from "../assets/stats.webp"
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 const ScheduleSection = () => {
   return (
