@@ -27,7 +27,7 @@ const ScheduleSection = () => {
 
               <a href='#' className='text-blue-500 font-semibold flex items-center gap-2 hover:gap-4 transition-all'>
                 Explore scheduling solutions
-                <FaLongArrowAltRight />
+                <FaLongArrowAltRight className="size-8" />
               </a>
             </div>
 
