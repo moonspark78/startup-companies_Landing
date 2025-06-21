@@ -23,6 +23,10 @@ const ScheduleSection = () => {
                   Donec maximus arcu vel suscipit hendrerit. Ut viverra sapien at nunc eleifend lobortis.
                   Mauris condimentum massa.
               </p>
+
+              <a href='#'>
+
+              </a>
             </div>
 
         </div>
