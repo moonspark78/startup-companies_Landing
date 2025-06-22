@@ -8,10 +8,10 @@ const MonitorSection = () => {
     
                 {/* Left side content */}
                 <div className='md:w-1/2 w-full'>
-                  <p className='text-orange-500 font-semibold'>SCHEDULE</p>
-                  <h2 className='text-3xl md:text-4xl font-bold text-neutral-900 mt-4 mb-6'>Streamline Your Business:
+                  <p className='text-green-500 font-semibold'>SCHEDULE</p>
+                  <h2 className='text-3xl md:text-4xl font-bold text-neutral-900 mt-4 mb-6'>Introducing best mobile
                     <br/>
-                    With Smart Scheduling Solutions
+                    Solutions
                   </h2>
                   <p className='text-gray-600 mb-8'>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum ullamcorper magna tincidunt posuere.
