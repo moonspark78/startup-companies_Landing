@@ -1,5 +1,5 @@
 import React from 'react'
-
+import monitorImage from '../assets/monitor-card.webp'
 
 const MonitorSection = () => {
   return (
@@ -8,7 +8,7 @@ const MonitorSection = () => {
     
                 {/* Left side content */}
                 <div className='md:w-1/2 w-full'>
-                    <img src={scheduleImage} alt='schedule image' className='w-full h-auto'/>
+                    <img src={monitorImage} alt='schedule image' className='w-full h-auto'/>
                 </div>
     
                 {/* right */}
