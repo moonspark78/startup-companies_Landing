@@ -21,11 +21,4 @@ function App() {
         <CompanyLogo/>
         <PurposeSection/>
         <FeaturesSection/>
-        <ScheduleSection/>
-        <MonitorSection/>
-      </div>
-    </main>
-  )
-}
-
-export default App
+        <ScheduleSec
