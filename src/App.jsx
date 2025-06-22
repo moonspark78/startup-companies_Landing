@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import PurposeSection from './components/PurposeSection';
 import ScheduleSection from './components/ScheduleSection';
 import CompanyLogo from './components/CompanyLogo';
+import MonitorSection from './components/MonitorSection';
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
         <PurposeSection/>
         <FeaturesSection/>
         <ScheduleSection/>
+        <MonitorSection/>
       </div>
     </main>
   )
