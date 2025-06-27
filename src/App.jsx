@@ -23,11 +23,4 @@ function App() {
         <PurposeSection/>
         <FeaturesSection/>
         <ScheduleSection/>
-        <MonitorSection/>
-        <PricingSection/>
-      </div>
-    </main>
-  )
-}
-
-export default App
+        <MonitorSec
