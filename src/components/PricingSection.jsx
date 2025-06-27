@@ -9,7 +9,9 @@ const PricingSection = () => {
 
   return (
     <section className='py-20 px-4'>
-        PricingSection
+        <div className=''>
+
+        </div>
     </section>
   )
 }
