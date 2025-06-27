@@ -5,8 +5,12 @@ const PricingSection = () => {
 
     const starterPrice = Math.round(4000 * (productCount / 50));
     const businessPrice = Math.round(7500 * (productCount / 50));
+
+
   return (
-    <div>PricingSection</div>
+    <section className='py-20 px-4'>
+        PricingSection
+    </section>
   )
 }
 
