@@ -9,7 +9,7 @@ const PricingSection = () => {
 
   return (
     <section className='py-20 px-4'>
-        <div className=''>
+        <div className='max-w-3xl mx-auto'>
 
         </div>
     </section>
