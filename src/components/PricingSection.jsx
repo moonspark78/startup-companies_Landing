@@ -15,8 +15,9 @@ const PricingSection = () => {
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mb-12'>
             {/* starter plan */}
-            <div>
+            <div className='bg-white p-8 rounded-lg shadow-lg'>
               <h3>Starter</h3>
+              <p className='text-3xl font-bold mb-6'>$100/mo</p>
             </div>
         </div>
     </section>
