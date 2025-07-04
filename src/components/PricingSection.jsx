@@ -19,6 +19,11 @@ const PricingSection = () => {
               <h3 className='text-xl text-gray-600 mb-4'>Starter</h3>
               <p className='text-3xl font-bold mb-6'>$100/mo</p>
             </div>
+
+            {/* business plan */}
+            <div>
+              <h3 className='text-xl text-gray-600 mb-4'>Business</h3>
+            </div>
         </div>
     </section>
   )
