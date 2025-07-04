@@ -14,7 +14,10 @@ const PricingSection = () => {
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mb-12'>
-
+            {/* starter plan */}
+            <div>
+              <h3>Starter</h3>
+            </div>
         </div>
     </section>
   )
