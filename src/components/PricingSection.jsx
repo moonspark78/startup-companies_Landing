@@ -36,6 +36,7 @@ const PricingSection = () => {
               <span className='text-xs sm:text-sm text-gray-600'>1</span>
               <input
                 className='flex-1 h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer'
+                type='range' min="1" max="50" value={productCount}
               />
             </div>
           </div>
