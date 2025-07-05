@@ -33,7 +33,7 @@ const PricingSection = () => {
 
           <div>
             <div className='flex items-center gap-2'>
-
+              <span className='text-xs sm:text-sm text-gray-600'>1</span>
             </div>
           </div>
         </div>
