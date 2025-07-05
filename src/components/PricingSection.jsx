@@ -26,6 +26,13 @@ const PricingSection = () => {
               <p className='text-3xl font-bold mb-6'>$100/mo</p>
             </div>
         </div>
+
+
+        <div>
+          <p className='text-center'>{productCount} products</p>
+        </div>
+
+
     </section>
   )
 }
