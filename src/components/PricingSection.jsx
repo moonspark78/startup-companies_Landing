@@ -30,6 +30,12 @@ const PricingSection = () => {
 
         <div>
           <p className='text-center text-gray-600 mb-4'>{productCount} products</p>
+
+          <div>
+            <div className='flex items-center gap-2'>
+
+            </div>
+          </div>
         </div>
 
 
