@@ -34,6 +34,9 @@ const PricingSection = () => {
           <div>
             <div className='flex items-center gap-2'>
               <span className='text-xs sm:text-sm text-gray-600'>1</span>
+              <input
+                className='flex-1 h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer'
+              />
             </div>
           </div>
         </div>
