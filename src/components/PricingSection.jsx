@@ -39,6 +39,7 @@ const PricingSection = () => {
                 type='range' min="1" max="50" value={productCount}
                 onChange={(e) => setProductCount(parseInt(e.target.value))}
               />
+              <span className='text-xs sm:text-sm text-gray-600'>50</span>
             </div>
           </div>
         </div>
