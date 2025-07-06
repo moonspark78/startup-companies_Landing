@@ -42,6 +42,11 @@ const PricingSection = () => {
               <span className='text-xs sm:text-sm text-gray-600'>50</span>
             </div>
           </div>
+
+
+          <div>
+            <p className='text-xl text-gray-600 mb-4'>Ready to get started ?</p>
+          </div>
         </div>
 
 
