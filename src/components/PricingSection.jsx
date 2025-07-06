@@ -46,7 +46,8 @@ const PricingSection = () => {
 
           <div className='text-center mt-12'>
             <p className='text-xl text-gray-600 mb-4'>Ready to get started ?</p>
-            <button className='bg-blue-600 text-white px-6 py-3'>
+            <button className='bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors
+             duration-200 cursor-pointer'>
               Get Started
             </button>
           </div>
