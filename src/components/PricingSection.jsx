@@ -28,7 +28,7 @@ const PricingSection = () => {
         </div>
 
 
-        <div>
+        <div className='max-w-xl mx-auto'>
           <p className='text-center text-gray-600 mb-4'>{productCount} products</p>
 
           <div>
