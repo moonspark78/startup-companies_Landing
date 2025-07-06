@@ -44,7 +44,7 @@ const PricingSection = () => {
           </div>
 
 
-          <div>
+          <div className='text-center mt-12'>
             <p className='text-xl text-gray-600 mb-4'>Ready to get started ?</p>
           </div>
         </div>
