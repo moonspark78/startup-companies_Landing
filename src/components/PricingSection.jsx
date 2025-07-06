@@ -31,7 +31,7 @@ const PricingSection = () => {
         <div className='max-w-xl mx-auto'>
           <p className='text-center text-gray-600 mb-4'>{productCount} products</p>
 
-          <div>
+          <div className='relative mx-auto'>
             <div className='flex items-center gap-2'>
               <span className='text-xs sm:text-sm text-gray-600'>1</span>
               <input
