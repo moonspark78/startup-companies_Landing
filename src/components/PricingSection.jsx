@@ -17,7 +17,7 @@ const PricingSection = () => {
             {/* starter plan */}
             <div className='bg-white p-8 rounded-lg shadow-lg'>
               <h3 className='text-xl text-gray-600 mb-4'>Starter</h3>
-              <p className='text-3xl font-bold mb-6'>$100/mo</p>
+              <p className='text-3xl font-bold mb-6'>${starterPrice}/mo</p>
             </div>
 
             {/* business plan */}
