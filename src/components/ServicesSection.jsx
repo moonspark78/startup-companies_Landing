@@ -6,7 +6,7 @@ const ServicesSection = () => {
         <div>
             {/* header */}
             <div>
-                
+                <h2>Future of support with new shape</h2>
             </div>
         </div>
     </section>
