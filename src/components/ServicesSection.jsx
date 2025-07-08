@@ -2,7 +2,14 @@ import React from 'react'
 
 const ServicesSection = () => {
   return (
-    <div>ServicesSection</div>
+    <section>
+        <div>
+            {/* header */}
+            <div>
+                
+            </div>
+        </div>
+    </section>
   )
 }
 
