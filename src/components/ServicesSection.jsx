@@ -9,14 +9,14 @@ const ServicesSection = () => {
                 <h2 className='text-3xl md:text-4xl font-bold mb-6 md:w-4/5'>Future of support with new shape</h2>
                 <p className='text-gray-500 text-lg mb-4 md:w-4/5'>Discuss your goals, determine success</p>
 
-                <div>
+                <div className='space-y-3'>
                     <div className='flex items-center gap-2'>
                         <div className='w-5 h-5 rounded-full bg-indigo-100 flex items-center justify-center'>
                             <div className='w-2.5 h-2.5 rounded-full bg-indigo-600'></div>
                         </div>
                         <span className='text-gray-600'>UX design contnet strategy</span>
                     </div>
-                    
+
                     <div className='flex items-center gap-2'>
                         <div className='w-5 h-5 rounded-full bg-indigo-100 flex items-center justify-center'>
                             <div className='w-2.5 h-2.5 rounded-full bg-indigo-600'></div>
