@@ -5,7 +5,7 @@ const ServicesSection = () => {
     <section>
         <div>
             {/* header */}
-            <div>
+            <div className='md:w-1/3 w-full'>
                 <h2 className='text-3xl md:text-4xl font-bold mb-6 md:w-4/5'>Future of support with new shape</h2>
                 <p className='text-gray-500 text-lg mb-4 md:w-4/5'>Discuss your goals, determine success</p>
 
