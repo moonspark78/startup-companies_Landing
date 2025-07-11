@@ -24,6 +24,8 @@ const ServicesSection = () => {
                         <span className='text-gray-600'>Development bring</span>
                     </div>
                 </div>
+
+                <button className='mt-8 bg-indigo-600 text-white'>Get Started</button>
             </div>
         </div>
     </section>
