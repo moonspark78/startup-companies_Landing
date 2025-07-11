@@ -25,7 +25,10 @@ const ServicesSection = () => {
                     </div>
                 </div>
 
-                <button className='mt-8 bg-indigo-600 text-white px-8 py-3 cursor-pointer rounded-full'>Get Started</button>
+                <button className='mt-8 bg-indigo-600 text-white px-8 py-3 cursor-pointer rounded-full
+                hover:bg-indigo-700 transition-colors'>
+                    Get Started
+                </button>
             </div>
         </div>
     </section>
