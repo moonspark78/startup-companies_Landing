@@ -3,7 +3,7 @@ import React from 'react'
 const ServicesSection = () => {
   return (
     <section>
-        <div className='flex flex-col md:flex-row items-center'>
+        <div className='flex flex-col md:flex-row items-center justify-between gap-12 lg:gap-24'>
             {/* header */}
             <div className='md:w-1/3 w-full'>
                 <h2 className='text-3xl md:text-4xl font-bold mb-6 md:w-4/5'>Future of support with new shape</h2>
