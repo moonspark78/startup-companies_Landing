@@ -1,5 +1,7 @@
 import React from 'react'
 import monitorImage from '../assets/monitor-card.webp'
+import { FaLongArrowAltRight } from "react-icons/fa";
+
 
 const MonitorSection = () => {
   return (
