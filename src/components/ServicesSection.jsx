@@ -73,7 +73,7 @@ const ServicesSection = () => {
                             className='bg-white max-w-72 cursor-pointer rounded-2xl p-6 hover:shadow-lg transition-shadow duration-300'>
                             <div className='mb-4'>{service.icon}</div>
                             <h3 className='text-xl font-semibold mb-2'>{service.title}</h3>
-                            <p></p>
+                            <p className='text-gray-600 mb-4'>{service.description}</p>
                         </div>
                     ))
                 }
