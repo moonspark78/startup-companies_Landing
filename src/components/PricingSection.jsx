@@ -8,8 +8,8 @@ const PricingSection = () => {
 
 
   return (
-    <section className='py-20 px-4'>
-        <div className='max-w-3xl mx-auto'>
+    <section className='py-20 px-4 w-[80%] mx-auto'>
+        <div className='max-w-6xl mx-auto'>
             <h2 className='text-3xl md:text-4xl font-bold text-center mb-16'>Pricing</h2>
         </div>
 
