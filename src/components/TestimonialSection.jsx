@@ -8,9 +8,9 @@ import { Pagination } from "swiper/modules";
 
 const TestimonialSection = () => {
   return (
-    <section>
-      <div>
-        <h2></h2>
+    <section className="py-16 px-4 max-w-7xl mx-auto">
+      <div className="text-center mb-12">
+        <h2 className="text-3xl font-bold mb-4 md:text-4xl">What our happy client say</h2>
         <p></p>
       </div>
 
