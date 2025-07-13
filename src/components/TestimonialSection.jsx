@@ -15,7 +15,7 @@ const TestimonialSection = () => {
       </div>
 
       {/* testimonial cards */}
-      <div>
+      <div className="relative">
         {/* swiper cards */}
         <Swiper
           slidesPerView={1}
