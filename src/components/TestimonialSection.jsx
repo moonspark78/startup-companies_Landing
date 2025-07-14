@@ -59,8 +59,13 @@ const TestimonialSection = () => {
       <div className="relative">
         {/* swiper cards */}
         <Swiper
-          slidesPerView={1}
-          spaceBetween={10}
+          navigation={
+            {
+              nextEl: '.swiper-button-next-custom',
+              prevEl: '.swiper-button-prev-custom',
+            }
+          }
+          spaceBetween={30}
           pagination={{
             clickable: true,
           }}
