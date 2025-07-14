@@ -43,7 +43,7 @@ const testimonials = [
   
   ];
 
-  
+
 
 const TestimonialSection = () => {
   return (
@@ -76,7 +76,7 @@ const TestimonialSection = () => {
               spaceBetween: 50,
             },
           }}
-          modules={[]}
+          modules={[Navigation]}
           className="mySwiper"
         >
           <SwiperSlide>Slide 1</SwiperSlide>
