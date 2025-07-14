@@ -77,7 +77,7 @@ const TestimonialSection = () => {
             },
           }}
           modules={[Navigation]}
-          className="mySwiper"
+          className="testimonials-swiper md:mb-12"
         >
           <SwiperSlide>Slide 1</SwiperSlide>
           <SwiperSlide>Slide 2</SwiperSlide>
