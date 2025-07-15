@@ -106,7 +106,8 @@ const TestimonialSection = () => {
             <BsChevronLeft className="size-6"/>
           </button>
 
-          <button>
+          <button className="w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center hover:bg-blue-500
+          hover:text-white transition-all duration-300 cursor-pointer">
             <BsChevronRight classNme="size-6"/>
           </button>
         </div>
