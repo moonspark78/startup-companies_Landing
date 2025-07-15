@@ -101,7 +101,7 @@ const TestimonialSection = () => {
         {/* navigation button */}
 
         <div>
-          <button>
+          <button className="w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center">
             <BsChevronLeft className="size-6"/>
           </button>
         </div>
