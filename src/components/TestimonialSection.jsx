@@ -100,7 +100,7 @@ const TestimonialSection = () => {
 
         {/* navigation button */}
 
-        <div>
+        <div className="flex justify-center gap-4 mt-8">
           <button className="w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center hover:bg-blue-500
           hover:text-white transition-all duration-300 cursor-pointer">
             <BsChevronLeft className="size-6"/>
