@@ -4,6 +4,7 @@ import { Navigation } from 'swiper/modules';
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
+import { BsChevronLeft } from "react-icons/bs";
 
 const testimonials = [
     {
@@ -101,7 +102,7 @@ const TestimonialSection = () => {
 
         <div>
           <button>
-            
+            <BsChevronLeft className="size-6"/>
           </button>
         </div>
       </div>
