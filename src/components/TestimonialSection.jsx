@@ -92,7 +92,7 @@ const TestimonialSection = () => {
                 <SwiperSlide>
                   <div>
                     <div>
-                      <img src={testimonial.image} alt='testimonial'/>
+                      <img src={testimonial.image} alt='testimonial' className="w-full h-full object-cover rounded-full"/>
                     </div>
                   </div>
                 </SwiperSlide>
