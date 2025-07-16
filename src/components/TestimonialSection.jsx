@@ -94,6 +94,10 @@ const TestimonialSection = () => {
                     <div className="w-24 h-24 mx-auto mb-4">
                       <img src={testimonial.image} alt='testimonial' className="w-full h-full object-cover rounded-full"/>
                     </div>
+
+                    <div>
+                      {[...Array(5)]}
+                    </div>
                   </div>
                 </SwiperSlide>
               
