@@ -88,25 +88,18 @@ const TestimonialSection = () => {
           className="testimonials-swiper md:mb-12"
         >
           <SwiperSlide>Slide 1</SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
-          <SwiperSlide>Slide 4</SwiperSlide>
-          <SwiperSlide>Slide 5</SwiperSlide>
-          <SwiperSlide>Slide 6</SwiperSlide>
-          <SwiperSlide>Slide 7</SwiperSlide>
-          <SwiperSlide>Slide 8</SwiperSlide>
-          <SwiperSlide>Slide 9</SwiperSlide>
+          
         </Swiper>
 
         {/* navigation button */}
 
         <div className="flex justify-center gap-4 mt-8">
-          <button className="w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center hover:bg-blue-500
+          <button className="swiper-button-prev-custom w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center hover:bg-blue-500
           hover:text-white transition-all duration-300 cursor-pointer">
             <BsChevronLeft className="size-6"/>
           </button>
 
-          <button className="w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center hover:bg-blue-500
+          <button className="swiper-button-next-custom w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center hover:bg-blue-500
           hover:text-white transition-all duration-300 cursor-pointer">
             <BsChevronRight classNme="size-6"/>
           </button>
