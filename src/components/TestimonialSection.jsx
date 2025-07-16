@@ -87,6 +87,11 @@ const TestimonialSection = () => {
           modules={[Navigation]}
           className="testimonials-swiper md:mb-12"
         >
+          {
+            testimonials.map((testimonial, index) =>(
+              <div></div>
+            ))
+          }
           <SwiperSlide>Slide 1</SwiperSlide>
           
         </Swiper>
