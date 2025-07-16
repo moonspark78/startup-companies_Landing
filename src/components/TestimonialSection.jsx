@@ -89,10 +89,16 @@ const TestimonialSection = () => {
         >
           {
             testimonials.map((testimonial, index) =>(
-              <div></div>
+                <SwiperSlide>
+                  <div>
+                    <div>
+                      <img src={testimonial.image} alt='testimonial'/>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              
             ))
           }
-          <SwiperSlide>Slide 1</SwiperSlide>
           
         </Swiper>
 
