@@ -103,6 +103,7 @@ const TestimonialSection = () => {
                         </span>
                       ))}
                     </div>
+                    <h3 className="text-lg font-semibold mt-2">{testimonial.name}</h3>
                   </div>
                 </SwiperSlide>
               
