@@ -15,6 +15,6 @@
     padding: 20px 0;
 }
 
-.testimonials-swiper{
-
+.testimonials-swiper .swiper-slide{
+    height: auto;
 }
