@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from 'swiper/modules';
+import { FaStar } from "react-icons/fa";
 
 // Import Swiper styles
 import "swiper/css";
@@ -96,7 +97,11 @@ const TestimonialSection = () => {
                     </div>
 
                     <div>
-                      {[...Array(5)]}
+                      {[...Array(5)].map((_, starIndex) => (
+                        <span className="text-yellow-500" key={starIndex}>
+                          <FaStar/>
+                        </span>
+                      ))}
                     </div>
                   </div>
                 </SwiperSlide>
