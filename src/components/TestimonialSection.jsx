@@ -104,6 +104,7 @@ const TestimonialSection = () => {
                       ))}
                     </div>
                     <h3 className="text-lg font-semibold mt-2">{testimonial.name}</h3>
+                    <p className="text-gray-600 mt-2">{testimonial.text}</p>
                   </div>
                 </SwiperSlide>
               
