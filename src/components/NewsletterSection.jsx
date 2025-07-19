@@ -12,7 +12,7 @@ const NewsletterSection = () => {
                 <div>
                     {/* left content */}
                     <div>
-                        <h2></h2>
+                        <h2>Subscribe to our newsletter</h2>
                     </div>
                 </div>
             </div>

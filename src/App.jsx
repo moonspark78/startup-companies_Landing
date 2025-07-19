@@ -29,4 +29,11 @@ function App() {
         <MonitorSection/>
         <PricingSection/>
         <ServicesSection/>
-        <Testimon
+        <TestimonialSection/>
+        <NewsletterSection/>
+      </div>
+    </main>
+  )
+}
+
+export default App
