@@ -9,7 +9,7 @@ const NewsletterSection = () => {
                 {/* gradient bg */}
                 <div className='absolute top-0 right-0 w-1/2 h-full bg-blue-700 clip-path-slant hidden md:block'></div>
 
-                <div>
+                <div className='relative flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12'>
                     {/* left content */}
                     <div>
                         <h2>Subscribe to our newsletter</h2>
