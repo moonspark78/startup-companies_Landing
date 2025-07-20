@@ -13,6 +13,7 @@ const NewsletterSection = () => {
                     {/* left content */}
                     <div className='text-white text-center md:text-left max-w-lg'>
                         <h2 className='text-2xl sm:text-3xl lg:text-4xl font-medium mb-4'>Subscribe to our newsletter</h2>
+                        <p className='text-blue-100 text-sm sm:text-base'>Best cooks and best delivery guys all at your service. Hot tasty food</p>
                     </div>
                 </div>
             </div>
