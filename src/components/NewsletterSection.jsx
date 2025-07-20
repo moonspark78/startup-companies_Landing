@@ -11,7 +11,7 @@ const NewsletterSection = () => {
 
                 <div className='relative flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12'>
                     {/* left content */}
-                    <div>
+                    <div className='text-white text-center md:text-left max-w-lg'>
                         <h2>Subscribe to our newsletter</h2>
                     </div>
                 </div>
