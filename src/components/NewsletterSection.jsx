@@ -15,6 +15,11 @@ const NewsletterSection = () => {
                         <h2 className='text-2xl sm:text-3xl lg:text-4xl font-medium mb-4'>Subscribe to our newsletter</h2>
                         <p className='text-blue-100 text-sm sm:text-base'>Best cooks and best delivery guys all at your service. Hot tasty food</p>
                     </div>
+
+                    {/* right content */}
+                    <div>
+                        <input type='email' placeholder='Enter your email'/>
+                    </div>
                 </div>
             </div>
         </div>
