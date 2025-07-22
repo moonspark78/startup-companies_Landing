@@ -22,8 +22,9 @@ const NewsletterSection = () => {
                         <input type='email' placeholder='Enter your email' 
                         className='w-full bg-white sm:w-auto md:w-80 px-4 sm:px-6 py-3
                         sm:py-4 rounded-xl sm:rounded-l-xl sm:rounded-r-none focus:outline-none'/>
-                        
-                        <button className='w-full'>
+
+                        <button className='w-full sm:w-auto cursor-pointer bg-green-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl
+                         sm:rounded-l-none sm:rounded-r-lg flex '>
                             <span>Discover</span>
                             <HiArrowRight className='size-6'/>
                         </button>
