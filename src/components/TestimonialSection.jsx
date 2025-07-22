@@ -96,7 +96,7 @@ const TestimonialSection = () => {
                       <img src={testimonial.image} alt='testimonial' className="w-full h-full object-cover rounded-full"/>
                     </div>
 
-                    <div>
+                    <div className="flex items-center justify-center gap-1 mb-2">
                       {[...Array(5)].map((_, starIndex) => (
                         <span className="text-yellow-500" key={starIndex}>
                           <FaStar/>
