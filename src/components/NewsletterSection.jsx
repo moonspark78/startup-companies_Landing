@@ -1,4 +1,5 @@
 import React from 'react'
+import { HiArrowRight } from 'react-icons/hi';
 
 const NewsletterSection = () => {
   return (
@@ -21,8 +22,10 @@ const NewsletterSection = () => {
                         <input type='email' placeholder='Enter your email' 
                         className='w-full bg-white sm:w-auto md:w-80 px-4 sm:px-6 py-3
                         sm:py-4 rounded-xl sm:rounded-l-xl sm:rounded-r-none focus:outline-none'/>
-                        <button>
+                        
+                        <button className='w-full'>
                             <span>Discover</span>
+                            <HiArrowRight className='size-6'/>
                         </button>
                     </div>
                 </div>
