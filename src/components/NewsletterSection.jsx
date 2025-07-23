@@ -24,7 +24,7 @@ const NewsletterSection = () => {
                         sm:py-4 rounded-xl sm:rounded-l-xl sm:rounded-r-none focus:outline-none'/>
 
                         <button className='w-full sm:w-auto cursor-pointer bg-green-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl
-                         sm:rounded-l-none sm:rounded-r-lg flex '>
+                         sm:rounded-l-none sm:rounded-r-lg flex items-center gap-2'>
                             <span>Discover</span>
                             <HiArrowRight className='size-6'/>
                         </button>
