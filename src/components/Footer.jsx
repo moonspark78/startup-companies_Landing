@@ -11,6 +11,7 @@ const Footer = () => {
               <div className="w-4 h-4 bg-blue-600 rounded-full opacity-75 hover:opacity-100 transition-opacity"></div>
               <div className="w-4 h-4 bg-red-500 -ml-2 rounded-full opacity-100 hover:opacity-75 transition-opacity"></div>
             </div>
+            <span className="text-xl font-medium ml-1">The Next Desugn</span>
           </div>
         </div>
       </div>
