@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div>
           {/* rand column */}
-          <div>
+          <div className="lg:col-span-4">
             <div className="flex gap-1 items-center">
             <div className="flex items-center gap-1 cursor-pointer">
               <div className="w-4 h-4 bg-blue-600 rounded-full opacity-75 hover:opacity-100 transition-opacity"></div>
@@ -20,7 +20,7 @@ const Footer = () => {
               The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times.
             </p>
 
-            <div>
+            <div className="flex gap-4">
               <a className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600
                hover:bg-blue-500 hover:text-white transition-all duration-200">
                 <FaFacebook className="size-5" />
