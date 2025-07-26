@@ -1,6 +1,30 @@
 import React from "react";
 import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 
+const footerLinks = {
+    company: [
+      { name: 'About', href: '#' },
+      { name: 'Terms of Use', href: '#' },
+      { name: 'Privacy Policy', href: '#' },
+      { name: 'How it Works', href: '#' },
+      { name: 'Contact Us', href: '#' },
+    ],
+    getHelp: [
+      { name: 'Support Carrer', href: '#' },
+      { name: '24h Service', href: '#' },
+      { name: 'Quick Chat', href: '#' },
+    ],
+    support: [
+      { name: 'FAQ', href: '#' },
+      { name: 'Policy', href: '#' },
+      { name: 'Business', href: '#' },
+    ],
+    contact: [
+      { name: 'WhatsApp', href: '#' },
+      { name: 'Support 24', href: '#' },
+    ],
+  }
+
 
 const Footer = () => {
   return (
@@ -39,6 +63,12 @@ const Footer = () => {
             </div>
           </div>
 
+          {/* footer links */}
+          <div className="lg:col-span-8">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+
+            </div>
+          </div>
 
         </div>
       </div>
