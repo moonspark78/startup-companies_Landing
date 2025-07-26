@@ -66,7 +66,11 @@ const Footer = () => {
           {/* footer links */}
           <div className="lg:col-span-8">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+              {Object.entries(footerLinks).map(([category, links], categoryIndex) => (
+                <div key={category}>
 
+                </div>
+              ))}
             </div>
           </div>
 
