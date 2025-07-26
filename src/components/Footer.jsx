@@ -68,7 +68,14 @@ const Footer = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               {Object.entries(footerLinks).map(([category, links], categoryIndex) => (
                 <div key={category}>
-
+                  <h3 className="text-lg font-medium mb-4 uppercase">{category}</h3>
+                  <ul className="space-y-3">
+                    {links.map((link, index) => (
+                      <li key={index}>
+                        
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               ))}
             </div>
