@@ -46,45 +46,4 @@ const Footer = () => {
 
             <div className="flex gap-4">
               <a className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600
-               hover:bg-blue-500 hover:text-white transition-all duration-200">
-                <FaFacebook className="size-5" />
-              </a>
-
-              <a className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600
-               hover:bg-blue-500 hover:text-white transition-all duration-200">
-                <FaTwitter className="size-5" />
-              </a>
-
-              <a className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600
-               hover:bg-blue-500 hover:text-white transition-all duration-200">
-                <FaLinkedin className="size-5" />
-              </a>
-
-            </div>
-          </div>
-
-          {/* footer links */}
-          <div className="lg:col-span-8">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-              {Object.entries(footerLinks).map(([category, links], categoryIndex) => (
-                <div key={category}>
-                  <h3 className="text-lg font-medium mb-4 uppercase">{category}</h3>
-                  <ul className="space-y-3">
-                    {links.map((link, index) => (
-                      <li key={index}>
-                        
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </footer>
-  );
-};
-
-export default Footer;
+               hover:bg-blue-500 hover:text-white transit
