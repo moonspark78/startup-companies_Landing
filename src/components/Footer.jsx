@@ -40,7 +40,7 @@ const Footer = () => {
             </div>
             <span className="text-xl font-medium ml-1">The Next Desugn</span>
             </div>
-            <p className="text-gray-600 mb-6">
+            <p className="text-gray-600 mb-6 md:w-3/4">
               The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times.
             </p>
 
