@@ -14,7 +14,7 @@ const ScheduleSection = () => {
 
             {/* right */}
             <div className='md:w-1/2 w-full'>
-              <p className='text-orange-500 font-semibold'>SCHEDULE</p>
+              <p className='text-orange-600 font-semibold'>SCHEDULE</p>
               <h2 className='text-3xl md:text-4xl font-bold text-neutral-900 mt-4 mb-6'>Streamline Your Business:
                 <br/>
                 With Smart Scheduling Solutions
